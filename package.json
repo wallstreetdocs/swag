@@ -1,12 +1,12 @@
 {
-    "name": "swag",
+    "name": "@wallstreetdocs/swag",
     "version": "0.6.2",
     "author": "Elving Rodriguez <elving.pr@gmail.com>",
     "description": "Give your handlebars.js templates some swag son!",
     "main": "./index.js",
-    "repository": {
+    "repository"     : {
         "type": "git",
-        "url": "https://github.com/elving/swag.git"
+        "url" : "git+https://github.com/wallstreetdocs/swag.git"
     },
     "keywords": [
         "swag",
@@ -15,6 +15,9 @@
         "helpers",
         "utilities"
     ],
+    "publishConfig"  : {
+        "registry": "https://npm.pkg.github.com/@wallstreetdocs"
+    },
     "dependencies": {
         "handlebars": "~4.7.7"
     },
